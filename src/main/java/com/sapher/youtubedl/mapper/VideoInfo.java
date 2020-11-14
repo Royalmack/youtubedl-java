@@ -9,6 +9,8 @@ import java.util.ArrayList;
 public class VideoInfo {
 
     public String id;
+    public String track;
+    public String artist;
     public String fulltitle;
     public String title;
     @JsonProperty("upload_date")
